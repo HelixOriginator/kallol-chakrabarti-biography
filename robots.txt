@@ -1,0 +1,43 @@
+# robots.txt for Kallol Chakrabarti Biography Site
+# Allow all search engines to crawl this site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://helixoriginator.github.io/kallol-chakrabarti-biography/sitemap.xml
+
+# Additional sitemaps for other repositories
+Sitemap: https://helixoriginator.github.io/Kallol/sitemap.xml
+Sitemap: https://helixoriginator.github.io/sitemap.xml
+
+# Crawl-delay (optional - prevents overwhelming the server)
+Crawl-delay: 1
+
+# Specific instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Block access to specific file types if needed (currently allowing all)
+# Uncomment below lines if you want to restrict certain files
+# Disallow: *.json$
+# Disallow: *.xml$
+# Disallow: *.yml$
+
+# Allow access to CSS and JS files for proper rendering
+User-agent: Googlebot
+Allow: *.css
+Allow: *.js
+
+User-agent: Bingbot
+Allow: *.css
+Allow: *.js
